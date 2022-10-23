@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;700&family=Roboto+Slab:wght@300;400;700&display=swap');
+
+:root {
+    --heading-font-family: 'Roboto Slab', serif;
+    --body-text-family: 'Catamaran', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    flex: row;
+    height: 100vh;
+    max-height: 100%;
+    overflow-x: scroll;
+}
+
+ul::-webkit-scrollbar {
+    display: none;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    min-width: 95vw;
+
+    list-style-type: none;
+    text-align: center;
+}
+
+li img {
+    max-width: min-content;
+    width: 100%;
+    max-height: 60vh;
+
+    margin: 0 auto;
+}
+
+li.item a {
+    font-family: var(--heading-font-family);
+    font-weight: 800;
+    font-size: 3rem;
+    text-decoration: none;
+    color: rgb(44, 45, 46)
+}
+
+
+
+
+
+
+
+
+
+/* custom itens */
+
+.item01 {
+    background-color: #FBDDDF;
+}
+
+.item02 {
+    background-color: #FBF9FC;
+}
+
+.item03 {
+    background-color: #F7CDD9;
+}
+
+.item04 {
+    background-color: #FBE7E0;
+}
